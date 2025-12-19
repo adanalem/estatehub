@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <title>EstateHub</title>
+</head>
+ <nav class="flex justify-between items-center px-6 md:px-20 py-6"
+        style="background: linear-gradient(to right, #ba9292, #333333);">
+        <div class="flex items-center gap-4">
+            <img src="images/logo.jpg" alt="Logo" class="h-12 w-12 object-cover rounded-full">
+            <h1 class="text-2xl md:text-3xl font-bold text-white">EstateHub</h1>
+        </div>
+        <div class="hidden md:flex gap-6">
+            <a href="#" class="px-4 py-2 text-xl text-white hover:bg-black rounded-xl transition">Home</a>
+            <a href="about.html" class="px-4 py-2 text-xl text-white hover:bg-black rounded-xl transition">About</a>
+            <a href="listing.html"
+                class="px-4 py-2 text-xl text-white hover:bg-black rounded-xl transition">Listings</a>
+            <a href="contact.html" class="px-4 py-2 text-xl text-white hover:bg-black rounded-xl transition">Contact</a>
+        </div>
+    </nav>
+
+   
+<header class="relative h-screen">
+  <img src="/images/photo-1580587771525-78b9dba3b914.avif" class="h-full w-full object-cover absolute inset-0" alt="Header Image">
+  <div class="absolute inset-0 bg-black/70"></div>
+
+  <div class="relative z-10 flex flex-col items-center justify-center h-full text-center px-6">
+    <h1 class="text-5xl font-bold underline text-white mb-4">
+      Property Listings
+    </h1>
+    <p class="text-xl text-white max-w-2xl mb-6 drop-shadow-md">
+      Explore a wide range of verified properties across Pakistan 🏡, from cozy family homes to luxurious villas and modern apartments. EstateHub makes your property search simple, reliable, and stress-free, helping you find the perfect place to call home.
+    </p>
+    <div class="flex gap-4">
+      <button class="mt-4 bg-[#AD343E] text-white px-6 py-3 rounded-full hover:bg-black transition">
+        <a href="about.html">more abouts us</a>
+      </button>
+      <button class="mt-4 bg-white text-black px-6 py-3 rounded-full hover:bg-gray-200 transition">
+        <a href="contact.html"> contact us</a>
+      </button>
+    </div>
+    <div class="flex gap-8 mt-8 text-white text-lg drop-shadow-md">
+      <span>🏠 750k+ Listings</span>
+      <span>👨‍💼 200+ Trusted Agents</span>
+      <span>🌟 5000+ Families Served</span>
+    </div>
+  </div>
+</header>
+
+<section class="px-20 py-16 bg-gray-100">
+  <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10">
+    <div class="bg-white rounded-xl shadow-md p-4 text-center">
+      <img src="images/house-1867187_1280.jpg" class="rounded-lg mb-4 h-56 w-full object-cover" alt="">
+      <h2 class="text-xl font-bold">Maple Residency</h2>
+      <p class="text-gray-600 mt-1">House • 4 Beds • 3 Baths • 2200 sq.ft</p>
+      <p class="text-sm mt-2">📍 Lahore</p>
+      <p class="text-lg font-semibold mt-2 text-[#AD343E]">PKR 3.5 Crore</p>
+      <button class="mt-4 bg-[#AD343E] text-white px-5 py-2 rounded-full hover:bg-black transition">
+        View Details
+      </button>
+    </div>
+
+    <div class="bg-white rounded-xl shadow-md p-4 text-center">
+      <img src="images/houses-8618837_1280.jpg" class="rounded-lg mb-4 h-56 w-full object-cover" alt="">
+      <h2 class="text-xl font-bold">Palm View House</h2>
+      <p class="text-gray-600 mt-1">House • 3 Beds • 3 Baths • 2000 sq.ft</p>
+      <p class="text-sm mt-2">📍 Islamabad</p>
+      <p class="text-lg font-semibold mt-2 text-[#AD343E]">PKR 2.8 Crore</p>
+      <button class="mt-4 bg-[#AD343E] text-white px-5 py-2 rounded-full hover:bg-black transition">
+        View Details
+      </button>
+    </div>
+
+    <div class="bg-white rounded-xl shadow-md p-4 text-center">
+      <img src="images/sa-rapita-2483668_1280.jpg" class="rounded-lg mb-4 h-56 w-full object-cover" alt="">
+      <h2 class="text-xl font-bold">Modern Haven</h2>
+      <p class="text-gray-600 mt-1">House • 5 Beds • 4 Baths • 3000 sq.ft</p>
+      <p class="text-sm mt-2">📍 Karachi</p>
+      <p class="text-lg font-semibold mt-2 text-[#AD343E]">PKR 4.2 Crore</p>
+      <button class="mt-4 bg-[#AD343E] text-white px-5 py-2 rounded-full hover:bg-black transition">
+        View Details
+      </button>
+    </div>
+    <div class="bg-white rounded-xl shadow-md p-4 text-center">
+  <img src="images/skyscrapers-4265384_1280.jpg" class="rounded-lg mb-4 h-56 w-full object-cover" alt="">
+  <h2 class="text-xl font-bold">Skyline Heights</h2>
+  <p class="text-gray-600 mt-1">Apartment • 3 Beds • 2 Baths • 1500 sq.ft</p>
+  <p class="text-sm mt-2">📍 Islamabad</p>
+  <p class="text-lg font-semibold mt-2 text-[#AD343E]">PKR 2.2 Crore</p>
+  <button class="mt-4 bg-[#AD343E] text-white px-5 py-2 rounded-full hover:bg-black transition">
+    <a href="contact.html">Book Now</a>
+  </button>
+</div>
+
+<div class="bg-white rounded-xl shadow-md p-4 text-center">
+  <img src="images/house-2483336_1280.jpg" class="rounded-lg mb-4 h-56 w-full object-cover" alt="">
+  <h2 class="text-xl font-bold">Luxury Villa</h2>
+  <p class="text-gray-600 mt-1">Villa • 6 Beds • 5 Baths • 4500 sq.ft</p>
+  <p class="text-sm mt-2">📍 Lahore</p>
+  <p class="text-lg font-semibold mt-2 text-[#AD343E]">PKR 7.5 Crore</p>
+  <button class="mt-4 bg-[#AD343E] text-white px-5 py-2 rounded-full hover:bg-black transition">
+    <a href="contact.html">Book Now</a>
+  </button>
+</div>
+
+<div class="bg-white rounded-xl shadow-md p-4 text-center">
+  <img src="images/large-home-389271_1280.jpg" class="rounded-lg mb-4 h-56 w-full object-cover" alt="">
+  <h2 class="text-xl font-bold">Maple Apartments</h2>
+  <p class="text-gray-600 mt-1">Apartment • 2 Beds • 2 Baths • 1200 sq.ft</p>
+  <p class="text-sm mt-2">📍 Karachi</p>
+  <p class="text-lg font-semibold mt-2 text-[#AD343E]">PKR 1.8 Crore</p>
+  <button class="mt-4 bg-[#AD343E] text-white px-5 py-2 rounded-full hover:bg-black transition">
+    <a href="contact.html">Book Now</a>
+  </button>
+</div>
+
+  </div>
+</section>
+
+
+
+
+
+
+
+
+    <footer class="bg-gray-900 text-white py-12 px-4 md:px-20">
+  <div class="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-4 gap-10">
+    
+    
+    <div class="flex flex-col items-start gap-4">
+      <div class="flex items-center gap-4">
+        <img src="images/logo.jpg" alt="Logo" class="h-12 w-12 object-cover rounded-full">
+        <h1 class="text-2xl md:text-3xl font-bold">EstateHub</h1>
+      </div>
+      <div class="flex gap-4 mt-4">
+        <img src="images/Social.png" alt="Social Icons" class="h-8 w-auto">
+      </div>
+    </div>
+
+    
+    <div>
+      <h2 class="text-xl font-semibold mb-4">Why Choose Us</h2>
+      <ul class="space-y-2 text-gray-300">
+        <li>✔ Verified Listings for authenticity and peace of mind</li>
+        <li>✔ Trusted Agents with years of experience</li>
+        <li>✔ Easy Search & Filters to quickly find your ideal property</li>
+        <li>✔ Trusted by Thousands of families nationwide</li>
+      </ul>
+    </div>
+
+    
+    <div>
+      <h2 class="text-xl font-semibold mb-4">Quick Links</h2>
+      <div class="flex flex-col gap-2">
+        <a href="index.html" class="hover:text-yellow-400 transition">Home</a>
+        <a href="about.html" class="hover:text-yellow-400 transition">About</a>
+        <a href="listing.html" class="hover:text-yellow-400 transition">Listings</a>
+        <a href="contact.html" class="hover:text-yellow-400 transition">Contact</a>
+      </div>
+    </div>
+
+
+    <div>
+      <h2 class="text-xl font-semibold mb-4">Contact Us</h2>
+      <p class="text-gray-300">📞 +00000</p>
+      <p class="text-gray-300">✉ info@estatehub.com</p>
+      <p class="text-gray-300">🏢 Lahore</p>
+    </div>
+
+  </div>
+
+  <div class="mt-12 text-center text-gray-400">
+    © 2025 EstateHub. All rights reserved.
+  </div>
+</footer>

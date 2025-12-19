@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <title>EstateHub</title>
+</head>
+
+<body style="background-color: aliceblue;">
+    <nav class="flex justify-between items-center px-6 md:px-20 py-6"
+        style="background: linear-gradient(to right, #ba9292, #333333);">
+        <div class="flex items-center gap-4">
+            <img src="images/logo.jpg" alt="Logo" class="h-12 w-12 object-cover rounded-full">
+            <h1 class="text-2xl md:text-3xl font-bold text-white">EstateHub</h1>
+        </div>
+        <div class="hidden md:flex gap-6">
+            <a href="#" class="px-4 py-2 text-xl text-white hover:bg-black rounded-xl transition">Home</a>
+            <a href="about.html" class="px-4 py-2 text-xl text-white hover:bg-black rounded-xl transition">About</a>
+            <a href="listing.html"
+                class="px-4 py-2 text-xl text-white hover:bg-black rounded-xl transition">Listings</a>
+            <a href="contact.html" class="px-4 py-2 text-xl text-white hover:bg-black rounded-xl transition">Contact</a>
+        </div>
+    </nav>
+
+    <header class="relative h-screen mt-4">
+        <img src="images/kitchen-2400367_1280.jpg" class="absolute inset-0 w-full h-full object-cover"
+            alt="Header Image">
+        <div class="absolute inset-0 bg-black/50 z-0"></div>
+        <div class="relative z-10 flex flex-col items-center justify-center h-full text-center px-4">
+            <h1 class="text-3xl md:text-5xl font-bold text-white mb-4 drop-shadow-lg">
+                Find the perfect place to Live with your family
+            </h1>
+            <p class="text-lg md:text-2xl text-white">
+                We provide verified listings and expert guidance to help you find the ideal property. Let us make your
+                search simple and stress-free.
+            </p>
+            <p class="text-lg mt-4 md:text-xl text-white drop-shadow-md">
+                We’ve more than 745,000 apartments, places & plots.
+            </p>
+            <div class="flex gap-2 mt-4">
+                <button
+                    class="border border-gray-500 text-xl text-white bg-[#AD343E] rounded-[40px] hover:bg-black p-3">
+                    <a href="listing.html">Explore more</a>
+                </button>
+                <button
+                    class="border border-gray-500 text-xl bg-[#333333] text-white hover:bg-black rounded-[40px] p-3">
+                    <a href="about.html">More about us</a>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <section>
+        <h1 class="text-black text-6xl font-bold m-[150px] mx-100">
+            Our <span class="text-7xl text-yellow-700">top</span> Listings
+        </h1>
+        <div class="grid grid-cols-2 md:grid-cols-2 lg:grid-cols-3">
+            <div class="p-5 m-6 border border-black rounded-xl" style="background-color: rgb(114, 150, 183);">
+                <img src="images/house-1867187_1280.jpg" class="rounded-md w-70 h-70 ml-10" alt="Maple Residency">
+                <h1 class="text-2xl font-bold">Maple Residency</h1>
+                <p class="font-semibold">
+                    4 Beds • 3 Baths • 2200 sq.ft • Located in Lahore.<br>
+                    A cozy family home with modern amenities and a spacious backyard.
+                </p>
+                <button
+                    class="border border-gray-500 text-xl text-white bg-[#AD343E] rounded-[40px] hover:bg-black p-3 mt-4">
+                    <a href="listing.html">Explore more</a>
+                </button>
+            </div>
+            <div class="p-5 m-6 border border-black rounded-xl" style="background-color: rgb(114, 150, 183);">
+                <img src="images/houses-8618837_1280.jpg" class="rounded-md w-70 h-70 ml-10" alt="Skyline Heights">
+                <h1 class="text-2xl font-bold">Skyline Heights</h1>
+                <p class="font-semibold">
+                    2 Beds • 2 Baths • 1200 sq.ft • Located in Karachi.<br>
+                    A modern apartment with city views, perfect for small families.
+                </p>
+                <button
+                    class="border border-gray-500 text-xl text-white bg-[#AD343E] rounded-[40px] hover:bg-black p-3 mt-4">
+                    <a href="listing.html">Explore more</a>
+                </button>
+            </div>
+            <div class="p-5 m-6 border border-black rounded-xl" style="background-color: rgb(114, 150, 183);">
+                <img src="images/sa-rapita-2483668_1280.jpg" class="rounded-md w-70 h-70 ml-10" alt="Modern Haven">
+                <h1 class="text-2xl font-bold">Modern Haven</h1>
+                <p class="font-semibold">
+                    3 Beds • 3 Baths • 2000 sq.ft • Located in Islamabad.<br>
+                    A sleek and contemporary house with open living spaces and modern amenities.
+                </p>
+                <button
+                    class="border border-gray-500 text-xl text-white bg-[#AD343E] rounded-[40px] hover:bg-black p-3 mt-4">
+                    <a href="listing.html">Explore more</a>
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <section class="py-20 bg-gray-100">
+        <div class="max-w-7xl mx-auto px-4 flex flex-col md:flex-row items-center gap-12">
+            <div class="bg-white/90 p-8 rounded-lg shadow-lg md:w-1/2">
+                <h2 class="text-4xl font-bold mb-6 underline decoration-black">Why Choose Us?</h2>
+                <p class="text-lg md:text-xl text-gray-700 mb-6">
+                    At EstateHub, we make finding your dream property simple, secure, and stress-free.
+                    With our verified listings, experienced agents, and easy-to-use platform, you can explore thousands
+                    of homes across Pakistan.
+                    Whether you’re looking for a cozy house, a modern apartment, or a luxury villa, we ensure you get
+                    the best options at the right price.
+                </p>
+                <ul class="text-gray-700 space-y-2">
+                    <li>✔ Verified Listings for authenticity and peace of mind</li>
+                    <li>✔ Trusted Agents with years of experience</li>
+                    <li>✔ Easy Search & Filters to quickly find your ideal property</li>
+                    <li>✔ Trusted by Thousands of families nationwide</li>
+                </ul>
+            </div>
+
+            <div class="md:w-1/2">
+                <img src="images/header.png" alt="Why Choose Us Image"
+                    class="rounded-lg object-cover w-full h-80 md:h-auto shadow-lg">
+            </div>
+
+        </div>
+    </section>
+
+    <section class="py-20 px-4 bg-gray-100">
+        <h1 class="text-4xl text-black font-bold underline decoration-black mb-12 text-center">What Our Customers Say
+        </h1>
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+
+            <div class="flex items-start gap-4 bg-white p-6 rounded-lg shadow-lg">
+                <img src="images/homeproduct.png" class="w-20 h-20 rounded-full object-cover" alt="Sara Ahmed">
+                <div>
+                    <h2 class="text-xl font-bold">Sara Ahmed</h2>
+                    <p class="text-gray-700 text-base md:text-lg mt-2">
+                        EstateHub made finding our family home simple and stress-free. The agents were professional,
+                        patient, and guided us at every step. Truly remarkable service!
+                    </p>
+                </div>
+            </div>
+
+            <div class="flex items-start gap-4 bg-white p-6 rounded-lg shadow-lg">
+                <img src="images/homeproduct2.png" class="w-20 h-20 rounded-full object-cover" alt="Ali Khan">
+                <div>
+                    <h2 class="text-xl font-bold">Ali Khan</h2>
+                    <p class="text-gray-700 text-base md:text-lg mt-2">
+                        I found my dream apartment within days. The listings were accurate, and the service was
+                        excellent! Highly recommended.
+                    </p>
+                </div>
+            </div>
+
+            <div class="flex items-start gap-4 bg-white p-6 rounded-lg shadow-lg">
+                <img src="images/homeproduct3.png" class="w-20 h-20 rounded-full object-cover" alt="Sara Raza">
+                <div>
+                    <h2 class="text-xl font-bold">Sara Raza</h2>
+                    <p class="text-gray-700 text-base md:text-lg mt-2">
+                        Trusted agents and verified properties gave me complete confidence in my investment decisions.
+                        EstateHub is simply amazing!
+                    </p>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <section class="py-12 mt-10 px-8 md:px-20 text-center bg-amber-100">
+        <div class="flex flex-col items-center gap-6">
+            <div class="flex mt-10">
+                <div class="text mt-30">
+                    <h1 class="text-4xl font-bold underline decoration-black mb-6 block">
+                        About Our Company
+                    </h1>
+                    <p class="text-lg text-gray-700">
+                        At EstateHub, our mission is to make finding your dream property simple, reliable, and stress-free. With
+                        years of experience in the real estate market across Pakistan, we pride ourselves on providing verified
+                        listings, expert guidance, and personalized service to every client.
+                    </p>
+                    <p class="text-lg text-gray-700 mt-4">
+                        Whether you are searching for a cozy family house, a modern apartment, or a luxurious villa, our team is
+                        dedicated to helping you make informed decisions. We combine technology, market knowledge, and a network of
+                        trusted agents to ensure you get the best options tailored to your needs.
+                    </p>
+                    <button class="bg-[#AD343E] text-white border border-black text-2xl hover:bg-black m-6 p-2 rounded-[40px] ">
+                        <a href="about.html">More about us</a>
+                    </button>
+                </div>
+                <img src="images/office-2360063_1280.jpg" class="w-[70vh] h-[80vh] rounded-md" alt="Office">
+            </div>
+        </div>
+    </section>
+
+    <footer class="bg-gray-900 text-white py-12 px-4 md:px-20">
+        <div class="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-4 gap-10">
+
+            <div class="flex flex-col items-start gap-4">
+                <div class="flex items-center gap-4">
+                    <img src="images/logo.jpg" alt="Logo" class="h-12 w-12 object-cover rounded-full">
+                    <h1 class="text-2xl md:text-3xl font-bold">EstateHub</h1>
+                </div>
+                <div class="flex gap-4 mt-4">
+                    <img src="images/Social.png" alt="Social Icons" class="h-8 w-auto">
+                </div>
+            </div>
+
+            <div>
+                <h2 class="text-xl font-semibold mb-4">Why Choose Us</h2>
+                <ul class="space-y-2 text-gray-300">
+                    <li>✔ Verified Listings for authenticity and peace of mind</li>
+                    <li>✔ Trusted Agents with years of experience</li>
+                    <li>✔ Easy Search & Filters to quickly find your ideal property</li>
+                    <li>✔ Trusted by Thousands of families nationwide</li>
+                </ul>
+            </div>
+
+            <div>
+                <h2 class="text-xl font-semibold mb-4">Quick Links</h2>
+                <div class="flex flex-col gap-2">
+                    <a href="#" class="hover:text-yellow-400 transition">Home</a>
+                    <a href="about.html" class="hover:text-yellow-400 transition">About</a>
+                    <a href="listing.html" class="hover:text-yellow-400 transition">Listings</a>
+                    <a href="contact.html" class="hover:text-yellow-400 transition">Contact</a>
+                </div>
+            </div>
+
+            <div>
+                <h2 class="text-xl font-semibold mb-4">Contact Us</h2>
+                <p class="text-gray-300">📞 +00000</p>
+                <p class="text-gray-300">✉ info@estatehub.com</p>
+                <p class="text-gray-300">🏢 Lahore</p>
+            </div>
+
+        </div>
+
+        <div class="mt-12 text-center text-gray-400">
+            © 2025 EstateHub. All rights reserved.
+        </div>
+    </footer>
+</body>
+
+</html>
